@@ -7,7 +7,7 @@ int main() {
 
     //table();
     //do{
-        ccin >> a;
+        cin >> a;
         if (verifica(a)){
             if (int(a) >= 97 && int(a) <= 122) {
                 a = char(int(a) - 32);
